@@ -19,7 +19,8 @@ tests_require = [
     'pytest-invenio>=1.3.4',
     'cryptography>=2.1.4',
     'mock>=1.3.0',
-    'pytest<6.0.0',  # FIXME: unping when fix pytest-invenio#54
+    'docker-services-cli>=0.2.0',
+    'pytest>=4.6.1,<6.0.0',  # FIXME: unping when fix pytest-invenio#54
 ]
 
 extras_require = {
@@ -50,7 +51,7 @@ install_requires = [
     'invenio-base>=1.2.2',
     'Flask-Alembic>=2.0.1',
     'Flask-SQLAlchemy>=2.1',
-    'SQLAlchemy>=1.1.0',
+    'SQLAlchemy>=1.2.18',
     'SQLAlchemy-Utils>=0.33.1,<0.36',
 ]
 
