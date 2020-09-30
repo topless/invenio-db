@@ -6,8 +6,6 @@
 # Invenio is free software; you can redistribute it and/or modify it
 # under the terms of the MIT License; see LICENSE file for more details.
 
-python -m pydocstyle invenio_db tests && \
-python -m isort invenio_db tests --check-only --diff && \
 python -m check_manifest --ignore ".travis-*" && \
 python -m sphinx.cmd.build -qnNW docs docs/_build/html && \
 docker-services-cli up ${DB}
