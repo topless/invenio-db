@@ -54,8 +54,6 @@ matrix:
     - env: EXTRAS=mysql REQUIREMENTS=lowest DB=mysql SQLALCHEMY_DATABASE_URI="mysql+pymysql://invenio:invenio@localhost:3306/invenio" MYSQL_VERSION="MYSQL_8_LATEST"
     - env: EXTRAS=mysql REQUIREMENTS=release DB=mysql SQLALCHEMY_DATABASE_URI="mysql+pymysql://invenio:invenio@localhost:3306/invenio" MYSQL_VERSION="MYSQL_8_LATEST"
     - env: EXTRAS=mysql REQUIREMENTS=devel DB=mysql SQLALCHEMY_DATABASE_URI="mysql+pymysql://invenio:invenio@localhost:3306/invenio" MYSQL_VERSION="MYSQL_8_LATEST"
-    - env: EXTRAS=postgresql REQUIREMENTS=devel DB=postgresql SQLALCHEMY_DATABASE_URI="postgresql+psycopg2://invenio:invenio@localhost:5432/invenio" POSTGRESQL_VERSION="POSTGRESQL_9_LATEST"
-    - env: EXTRAS=postgresql REQUIREMENTS=devel DB=postgresql SQLALCHEMY_DATABASE_URI="postgresql+psycopg2://invenio:invenio@localhost:5432/invenio" POSTGRESQL_VERSION="POSTGRESQL_10_LATEST"
     - env: EXTRAS=postgresql REQUIREMENTS=devel DB=postgresql SQLALCHEMY_DATABASE_URI="postgresql+psycopg2://invenio:invenio@localhost:5432/invenio" POSTGRESQL_VERSION="POSTGRESQL_11_LATEST"
     - env: EXTRAS=postgresql REQUIREMENTS=devel DB=postgresql SQLALCHEMY_DATABASE_URI="postgresql+psycopg2://invenio:invenio@localhost:5432/invenio" POSTGRESQL_VERSION="POSTGRESQL_12_LATEST"
     - python: 3.8
